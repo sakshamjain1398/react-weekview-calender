@@ -1,0 +1,112 @@
+.month {
+    width: 100%;
+    background: #0091ea;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.days .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.days .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #0091ea;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 11.1%;
+    color: white;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.days {
+    padding: 10px 0;
+    background: #0091ea;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 11.1%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: white;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.days li .active {
+    padding: 6px;
+    border-radius: 12px;
+    background: white;
+    color: #0091ea !important
+}
+
+/* Add media queries for smaller screens */
+/*@media screen and (max-width:720px) {*/
+    /*.weekdays li, .days li {width: 10%;}*/
+/*}*/
+
+/*@media screen and (max-width: 420px) {*/
+    /*.weekdays li, .days li {width: 9.5%;}*/
+    /*.days li .active {padding: 2px;}*/
+/*}*/
+
+/*@media screen and (max-width: 290px) {*/
+    /*.weekdays li, .days li {width: 9.2%;}*/
+/*}*/
+.selectedDate{
+    border: 3px white solid;
+    border-radius: 15px;
+    padding: 6px;
+}
+.selectedSmallDate{
+    border: 3px white solid;
+    border-radius: 15px;
+    padding: 5px 8px;
+}
+.smallActive{
+    padding: 5px 8px;
+    border-radius: 15px;
+    background: white;
+    color: #0091ea !important
+}
